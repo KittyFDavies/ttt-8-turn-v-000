@@ -43,7 +43,7 @@ def turn(array)
   if valid_move?(board, index)
     move(board, index, "X")
   else
-    turn(board)
+    turn(array)
   end
-  
+
 end
